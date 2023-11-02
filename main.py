@@ -42,7 +42,6 @@ def code_review(parameters: dict):
 
 
 def make_prompt(dev_lang: str) -> str:
-    def make_prompt(dev_lang: str) -> str:
     review_prompt = """You are a professional code reviewer with expert level knowledge of how to spot potential bugs, code smells, security issues, inconsistent formatting and readability issues.
     You have the ability to make improvement suggestions with examples.
     Review this file of a pull request for potential bugs, code smells, security issues, inconsistent formatting, readability issues and suggest improvements with examples.
@@ -52,7 +51,6 @@ def make_prompt(dev_lang: str) -> str:
     Do not suggest comments.
     Generate your review in markdown format.
     Your review should use an extremely joking and funny tone and poke fun at the author, but keep it safe for work."""
-
 
     return review_prompt
 
